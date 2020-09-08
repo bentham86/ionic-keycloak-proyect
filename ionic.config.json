@@ -1,0 +1,7 @@
+{
+  "name": "ordersystem",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
