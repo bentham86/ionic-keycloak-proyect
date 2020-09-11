@@ -33,13 +33,10 @@
             ],
             "styles": [
               {
-                "input": "src/theme/variables.scss"
-              },
-              {
-                "input": "src/global.scss"
+                "input": "src/theme/sb-admin-2.scss"
               }
             ],
-            "scripts": []
+            "scripts": [ ]
           },
           "configurations": {
             "production": {
@@ -128,7 +125,9 @@
               "tsconfig.spec.json",
               "e2e/tsconfig.json"
             ],
-            "exclude": ["**/node_modules/**"]
+            "exclude": [
+              "**/node_modules/**"
+            ]
           }
         },
         "e2e": {
@@ -174,7 +173,8 @@
     }
   },
   "cli": {
-    "defaultCollection": "@ionic/angular-toolkit"
+    "defaultCollection": "@ionic/angular-toolkit",
+    "analytics": "1281049d-08d4-4eef-becb-0115b061dd8e"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {
